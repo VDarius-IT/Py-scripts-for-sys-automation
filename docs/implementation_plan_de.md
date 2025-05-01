@@ -8,31 +8,31 @@
 
 ## 2. Phasenplanung
 
-### Phase 1: Anforderungsanalyse (2 Wochen)
+### Phase 1: Anforderungsanalyse 
 - Sammlung von Benutzeranforderungen
 - Definition von Sicherheitsanforderungen
 - Festlegung von Monitoring-SLA's
 - Erstellung von Use-Case-Diagrammen
 
-### Phase 2: Design & Architektur (3 Wochen)
+### Phase 2: Design & Architektur 
 - Entwicklung der Systemarchitektur
 - Design der Datenflussdiagramme
 - Definition von API-Schnittstellen
 - Auswahl der Technologien und Frameworks
 
-### Phase 3: Entwicklung (6 Wochen)
+### Phase 3: Entwicklung 
 - Implementierung des Backup-Moduls
 - Entwicklung des Systemmonitoring
 - Integration des Konfigurationsmanagements
 - Implementierung der Sicherheitsfunktionen
 
-### Phase 4: Test & Validierung (3 Wochen)
+### Phase 4: Test & Validierung 
 - Durchführung von Unit-Tests
 - Integrationstests aller Module
 - Sicherheitstests und Penetrationstests
 - Lasttests unter simulierter Belastung
 
-### Phase 5: Deployment & Dokumentation (2 Wochen)
+### Phase 5: Deployment & Dokumentation 
 - Erstellung der Benutzerdokumentation
 - Entwicklung von Schulungsmaterialien
 - Durchführung von Pilot-Deployments
