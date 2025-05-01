@@ -1,0 +1,53 @@
+# System Automation Configuration File
+
+# Logging Configuration
+logging:
+  level: INFO
+  format: '%(asctime)s - %(levelname)s - %(message)s'
+  file: system_automation.log
+
+# Backup Configuration
+backup:
+  # Default directories (can be overridden at runtime)
+  source_dir: C:\\Data
+  backup_root: D:\\Backups
+  # Retention policy (in days)
+  retention_period: 30
+  # File patterns to exclude from backups
+  exclude_patterns:
+    - '*.tmp'
+    - '*.log'
+    - 'temp/*'
+  # Hash algorithm to use (sha256, sha512, md5)
+  hash_algorithm: sha256
+  # Compression options (none, zip, tar_gz)
+  compression: zip
+
+# System Monitoring Configuration
+monitoring:
+  # Resource thresholds
+  cpu_threshold: 80
+  memory_threshold: 85
+  disk_threshold: 90
+  # Drives to monitor (empty means all drives)
+  drives_to_monitor:
+    - C:\\
+    - D:\\
+  # Alert notification settings
+  alerts:
+    email_notifications: false
+    smtp_server: smtp.example.com
+    alert_email: admin@example.com
+
+# User Management Configuration
+user_mgmt:
+  # Password complexity requirements
+  password_policy:
+    min_length: 12
+    require_uppercase: true
+    require_lowercase: true
+    require_numbers: true
+    require_special: true
+    # Account lockout settings
+    lockout_threshold: 5
+    lockout_duration: 30
