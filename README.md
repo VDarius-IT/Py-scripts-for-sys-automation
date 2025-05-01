@@ -42,6 +42,12 @@ All settings are managed in `config/app_config.yaml`:
 - **Monitoring**: Resource thresholds, drives to monitor, email alerts
 - **User Management**: Password policies and account lockout settings
 
+## Documentation
+- [Implementation Plan](docs/implementation_plan.md)
+- [Architecture Guide](docs/architecture.md)
+- [Implementierungsplan (Deutsch)](docs/implementation_plan_de.md)
+- [Architektur-Handbuch (Deutsch)](docs/architecture_de.md)
+
 ## Project Structure
 ```
 ├── config/              # Configuration files
@@ -60,4 +66,3 @@ Contributions are welcome! Please follow these guidelines:
 
 ## License
 This project is licensed under the MIT License.
-
