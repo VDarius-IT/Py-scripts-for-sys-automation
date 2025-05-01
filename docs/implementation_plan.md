@@ -10,7 +10,7 @@ graph TD
     E --> F[Phase 6: Deployment]
 ```
 
-## 2. Phase 1: Setup & Requirements (Week 1)
+## 2. Phase 1: Setup & Requirements 
 ### 2.1 Environment Configuration
 ```powershell
 # Create project structure
@@ -32,7 +32,7 @@ python -m venv venv
 | Core Libraries | os, subprocess, psutil, schedule |
 | Logging Standard | ISO 8601 timestamps, log levels |
 
-## 3. Phase 2: Core Module Development (Week 2-3)
+## 3. Phase 2: Core Module Development 
 ### 3.1 User Management Module
 ```python
 # scripts/user_mgmt.py
@@ -79,7 +79,7 @@ def create_backup(source_dir, backup_dir):
         return False
 ```
 
-## 4. Phase 3: Integration (Week 4)
+## 4. Phase 3: Integration 
 ### 4.1 Scheduler Integration
 ```python
 # scripts/scheduler.py
@@ -103,7 +103,7 @@ while True:
     time.sleep(1)
 ```
 
-## 5. Phase 4: Testing (Week 5)
+## 5. Phase 4: Testing
 ### 5.1 Test Matrix
 | Test Type | Module | Method |
 |----------|--------|--------|
@@ -112,14 +112,14 @@ while True:
 | Stress Test | System Monitor | Resource overload simulation |
 | Security Test | All Modules | Permission validation |
 
-## 6. Phase 5: Documentation (Week 6)
+## 6. Phase 5: Documentation 
 ### 6.1 Documentation Standards
 - All documentation follows SIEM project style
 - Mermaid diagrams for architecture and workflows
 - API documentation for all public functions
 - Version control in document headers
 
-## 7. Phase 6: Deployment (Week 7)
+## 7. Phase 6: Deployment 
 ### 7.1 Deployment Checklist
 - [ ] Create installation package:
 ```bash
