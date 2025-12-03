@@ -6,7 +6,7 @@ A comprehensive system monitoring and data backup solution for Windows and Unix-
 - **System Monitoring**: Real-time monitoring of CPU, memory, and disk usage with alert notifications
 - **Data Backup**: Configurable backup with compression, hashing, and retention policies
 - **User Management**: Password policy enforcement and account lockout management
-- **Cross-platform**: Works on both Windows and Unix-like systems
+- **Cross-platform**: Monitoring and Backup modules work on Windows and Unix-like systems.
 
 ## Requirements
 - Python 3.8+
